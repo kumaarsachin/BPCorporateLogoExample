@@ -1,0 +1,21 @@
+.container {
+	width: 100%;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+	width: 50%;
+	overflow: hidden;
+	float: left;
+	height: 300px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 520px) {
+	.one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+		width: 20%;
+	}
+} 
+
+img {
+	max-width: 80%;
+}
